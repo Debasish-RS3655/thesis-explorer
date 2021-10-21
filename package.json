@@ -1,0 +1,21 @@
+{
+  "name": "article_finder",
+  "version": "1.0.0",
+  "description": "Finds research articles related to webpages or a piece of text.",
+  "main": "backend.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "article",
+    "science"
+  ],
+  "author": "Debasish Buragohain",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "ibm-watson": "^6.0.3",
+    "path": "^0.12.7"
+  }
+}
